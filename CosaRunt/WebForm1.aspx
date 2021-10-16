@@ -169,10 +169,10 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
             <tr>
                 <td class="auto-style1">Fecha de Tramite:</td>
                 <td class="auto-style14">
-                    <asp:TextBox ID="txtOrganismoFechaT" runat="server" TextMode="Date" Enabled="False" Width="450px"></asp:TextBox>
+                    <asp:TextBox ID="txtOrganismoFechaT" runat="server" TextMode="Date" Width="450px"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtOrganismoFechaT">*</asp:RequiredFieldValidator>
                 </td>
             </tr>
         </table>
@@ -184,16 +184,16 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                     <asp:TextBox ID="txtPlacaLetras" runat="server" Width="450px"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtPlacaLetras">*</asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style2">Numeros</td>
                 <td class="auto-style17">
-                    <asp:TextBox ID="txtPlacaNumeros" runat="server" Enabled="False" Width="450px"></asp:TextBox>
+                    <asp:TextBox ID="txtPlacaNumeros" runat="server" Width="450px"></asp:TextBox>
                 </td>
                 <td class="auto-style3">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtPlacaNumeros">*</asp:RequiredFieldValidator>
                 </td>
             </tr>
         </table>
@@ -241,7 +241,7 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                 <td>
                     <asp:TextBox ID="txtMarca" runat="server" Width="445px"></asp:TextBox></td>
                 <td class="auto-style12">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtMarca">*</asp:RequiredFieldValidator>
                 </td>
             </tr>
         </table>
@@ -252,7 +252,7 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                 <td class="auto-style19">
                     <asp:TextBox ID="txtLineaVehiculo" runat="server" Width="444px"></asp:TextBox></td>
                 <td>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtLineaVehiculo">*</asp:RequiredFieldValidator>
                 </td>
             </tr>
         </table>
@@ -263,7 +263,7 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                 <td>
                     <asp:TextBox ID="txtTipoVehiculo" runat="server" Width="441px"></asp:TextBox></td>
                 <td class="auto-style14">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtTipoVehiculo">*</asp:RequiredFieldValidator>
                 </td>
             </tr>
         </table>
@@ -288,7 +288,7 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                 <td>
                     <asp:TextBox ID="txtColor" runat="server" Width="440px"></asp:TextBox></td>
                 <td class="auto-style20">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtColor">*</asp:RequiredFieldValidator>
                 </td>
             </tr>
         </table>
@@ -299,7 +299,7 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                 <td>
                     <asp:TextBox ID="txtModelo" runat="server" Width="444px"></asp:TextBox></td>
                 <td class="auto-style21">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtModelo">*</asp:RequiredFieldValidator>
                 </td>
             </tr>
         </table>
@@ -310,7 +310,7 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                 <td class="auto-style18">
                     <asp:TextBox ID="txtPesoVehiculo" runat="server" Width="449px"></asp:TextBox></td>
                 <td>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtPesoVehiculo">*</asp:RequiredFieldValidator>
                 </td>
             </tr>
         </table>
@@ -321,7 +321,7 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                 <td>
                     <asp:TextBox ID="txtLargoVehiculo" runat="server" Width="447px"></asp:TextBox></td>
                 <td class="auto-style25">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator10" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator10" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtLargoVehiculo">*</asp:RequiredFieldValidator>
                 </td>
             </tr>
         </table>
@@ -332,7 +332,7 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                 <td class="auto-style21">
                     <asp:TextBox ID="txtAnchoVehiculo" runat="server" Width="446px"></asp:TextBox></td>
                 <td>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator11" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator11" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtAnchoVehiculo">*</asp:RequiredFieldValidator>
                 </td>
             </tr>
         </table>
@@ -343,7 +343,7 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                 <td class="auto-style27">
                     <asp:TextBox ID="txtAltoVehiculo" runat="server" Width="440px"></asp:TextBox></td>
                 <td>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator12" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator12" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtAltoVehiculo">*</asp:RequiredFieldValidator>
                 </td>
             </tr>
         </table>
@@ -354,7 +354,7 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                 <td>
                     <asp:TextBox ID="txtCargaVehiculo" runat="server" Width="443px"></asp:TextBox></td>
                 <td class="auto-style28">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator13" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator13" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtCargaVehiculo">*</asp:RequiredFieldValidator>
                 </td>
             </tr>
         </table>
@@ -379,18 +379,18 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                 <td>
                     <asp:TextBox ID="txtIdMotor" runat="server" Width="282px"></asp:TextBox></td>
                 <td class="auto-style37">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator14" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator14" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtIdMotor">*</asp:RequiredFieldValidator>
                 </td>
                 <td class="auto-style6">Regrabado</td>
                 <td class="auto-style8">
-                    <asp:CheckBox ID="CheckBox1" Text="Sí" runat="server" /><asp:CheckBox ID="CheckBox2" Text="No" runat="server" /></td>
+                    <asp:CheckBox ID="CheckBox1" Text="Sí" runat="server" /><asp:CheckBox ID="CheckBox2" Text="No" runat="server"  /></td>
             </tr>
             <tr>
                 <td class="auto-style1"># de identificación:</td>
                 <td>
                     <asp:TextBox ID="txtIdId" runat="server" Width="282px"></asp:TextBox></td>
                 <td class="auto-style37">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator15" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator15" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtIdId">*</asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
@@ -398,7 +398,7 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                 <td>
                     <asp:TextBox ID="txtIdEjes" runat="server" Width="282px"></asp:TextBox></td>
                 <td class="auto-style37">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator16" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator16" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtIdEjes">*</asp:RequiredFieldValidator>
                 </td>
             </tr>
         </table>
@@ -410,14 +410,14 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                     <asp:TextBox ID="txtPropApellido1" runat="server" Width="282px"></asp:TextBox></td>
 
                 <td class="auto-style29">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator17" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator17" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtPropApellido1">*</asp:RequiredFieldValidator>
                 </td>
 
                  <td class="auto-style1">Segundo apellido:</td>
                 <td class="auto-style32">
                     <asp:TextBox ID="txtPropApellido2" runat="server" Width="282px"></asp:TextBox></td>
                 <td class="auto-style31">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator21" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator21" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtPropApellido2">*</asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
@@ -426,7 +426,7 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                     <asp:TextBox ID="txtPropNombre" runat="server" Width="282px"></asp:TextBox></td>
 
                 <td class="auto-style29">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator18" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator18" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtPropNombre">*</asp:RequiredFieldValidator>
                 </td>
 
             </tr>
@@ -451,7 +451,7 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                 <td class="auto-style32">
                     <asp:TextBox ID="txtPropId" runat="server" Width="282px"></asp:TextBox></td>
                 <td class="auto-style31">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator22" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator22" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtPropId">*</asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
@@ -460,7 +460,7 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                     <asp:TextBox ID="txtPropCiudad" runat="server" Width="282px"></asp:TextBox></td>
 
                 <td class="auto-style29">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator19" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator19" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtPropCiudad">*</asp:RequiredFieldValidator>
                 </td>
 
             </tr>
@@ -470,7 +470,7 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                     <asp:TextBox ID="txtPropDireccion" runat="server" Width="282px"></asp:TextBox></td>
 
                 <td class="auto-style29">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator20" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator20" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtPropDireccion">*</asp:RequiredFieldValidator>
                 </td>
 
             </tr>
@@ -489,7 +489,7 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
             <tr>
                 <td class="auto-style1">Seleccione el tipo:</td>
                 <td class="auto-style5">
-                    <asp:DropDownList ID="DropDownList6" runat="server">
+                    <asp:DropDownList ID="DropDownList6" runat="server" OnSelectedIndexChanged="DropDownList6_SelectedIndexChanged" AutoPostBack="True">
                         <asp:ListItem>Importación</asp:ListItem>
                         <asp:ListItem>Remate</asp:ListItem>
                     </asp:DropDownList>
@@ -501,49 +501,44 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                 <td class="auto-style1">Manif o Acta:</td>
                 <td class="auto-style5"><asp:TextBox ID="txtManif" runat="server" Width="282px"></asp:TextBox></td>
                 <td class="auto-style5">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator23" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
-                </td>
+                    &nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style1">Dec de Importe::</td>
                 <td class="auto-style5"><asp:TextBox ID="txtDecImporte" runat="server" Width="282px"></asp:TextBox></td>
                 <td class="auto-style5">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator24" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
-                </td>
+                    &nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style1">Acta:</td>
                 <td class="auto-style5"><asp:TextBox ID="txtActa" runat="server" Width="282px"></asp:TextBox></td>
                 <td class="auto-style5">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator25" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
-                </td>
+                    &nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style1">Entidad:</td>
                 <td class="auto-style5"><asp:TextBox ID="txtEntidad" runat="server" Width="282px"></asp:TextBox></td>
                 <td class="auto-style5">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator26" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
-                </td>
+                    &nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style1">Lugar:</td>
                 <td class="auto-style5"><asp:TextBox ID="txtLugar" runat="server" Width="282px"></asp:TextBox></td>
                 <td class="auto-style5">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator27" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
-                </td>
+                    &nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style1"># Documento:</td>
                 <td class="auto-style5"><asp:TextBox ID="txtDocumentoImporte" runat="server" Width="282px"></asp:TextBox></td>
                 <td class="auto-style5">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator28" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator36" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtDocumentoImporte">*</asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style38">Fecha:</td>
                 <td class="auto-style39"><asp:TextBox ID="txtFechaImporte" TextMode="Date" runat="server" Width="282px"></asp:TextBox></td>
                 <td class="auto-style39">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator29" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator37" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtFechaImporte">*</asp:RequiredFieldValidator>
                 </td>
             </tr>
         </table>
@@ -570,14 +565,14 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                     <asp:TextBox ID="txtCompApellido1" runat="server" Width="282px"></asp:TextBox></td>
 
                 <td class="auto-style40">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator30" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator30" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtCompApellido1">*</asp:RequiredFieldValidator>
                 </td>
 
                  <td class="auto-style1">Segundo apellido:</td>
                 <td>
                     <asp:TextBox ID="txtCompApellido2" runat="server" Width="282px"></asp:TextBox></td>
                 <td class="auto-style41">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator34" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator34" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtCompApellido2">*</asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
@@ -586,7 +581,7 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                     <asp:TextBox ID="txtCompNombre" runat="server" Width="282px"></asp:TextBox></td>
 
                 <td class="auto-style40">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator31" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator31" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtCompNombre">*</asp:RequiredFieldValidator>
                 </td>
 
             </tr>
@@ -611,7 +606,7 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                 <td>
                     <asp:TextBox ID="txtCompId" runat="server" Width="282px"></asp:TextBox></td>
                 <td class="auto-style41">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator35" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator35" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtCompId">*</asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
@@ -620,7 +615,7 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                     <asp:TextBox ID="txtCompCiudad" runat="server" Width="282px" ></asp:TextBox></td>
 
                 <td class="auto-style40">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator32" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator32" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtCompCiudad">*</asp:RequiredFieldValidator>
                 </td>
 
             </tr>
@@ -630,7 +625,7 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                     <asp:TextBox ID="txtCompDireccion" runat="server" Width="282px"></asp:TextBox></td>
 
                 <td class="auto-style40">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator33" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator33" runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="Red" ControlToValidate="txtCompDireccion">*</asp:RequiredFieldValidator>
                 </td>
 
             </tr>
@@ -649,7 +644,7 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
             <tr>
                 <td class="auto-style1">Seleccionar si el vehiculo aplica:</td>
                 <td class="auto-style5">
-                    <asp:CheckBoxList ID="CheckBoxList2" runat="server" Width="346px" >
+                    <asp:CheckBoxList ID="CheckBoxList1" runat="server" Width="346px" >
                         <asp:ListItem Selected="True">Ninguno</asp:ListItem>
                         <asp:ListItem>Hurto</asp:ListItem>
                         <asp:ListItem>Lim. Propiedad</asp:ListItem>
@@ -667,7 +662,10 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                 <td class="auto-style10">
                     <asp:TextBox ID="txtObservacion" runat="server" Width="689px" Height="106px"></asp:TextBox></td>
             </tr>
+
         </table>
+
+        <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
         
     </form>
 </body>

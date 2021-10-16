@@ -537,15 +537,6 @@ namespace CosaRunt
         protected global::System.Web.UI.WebControls.TextBox txtManif;
 
         /// <summary>
-        /// Control RequiredFieldValidator23.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator23;
-
-        /// <summary>
         /// Control txtDecImporte.
         /// </summary>
         /// <remarks>
@@ -553,15 +544,6 @@ namespace CosaRunt
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtDecImporte;
-
-        /// <summary>
-        /// Control RequiredFieldValidator24.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator24;
 
         /// <summary>
         /// Control txtActa.
@@ -573,15 +555,6 @@ namespace CosaRunt
         protected global::System.Web.UI.WebControls.TextBox txtActa;
 
         /// <summary>
-        /// Control RequiredFieldValidator25.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator25;
-
-        /// <summary>
         /// Control txtEntidad.
         /// </summary>
         /// <remarks>
@@ -589,15 +562,6 @@ namespace CosaRunt
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtEntidad;
-
-        /// <summary>
-        /// Control RequiredFieldValidator26.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator26;
 
         /// <summary>
         /// Control txtLugar.
@@ -609,15 +573,6 @@ namespace CosaRunt
         protected global::System.Web.UI.WebControls.TextBox txtLugar;
 
         /// <summary>
-        /// Control RequiredFieldValidator27.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator27;
-
-        /// <summary>
         /// Control txtDocumentoImporte.
         /// </summary>
         /// <remarks>
@@ -627,13 +582,13 @@ namespace CosaRunt
         protected global::System.Web.UI.WebControls.TextBox txtDocumentoImporte;
 
         /// <summary>
-        /// Control RequiredFieldValidator28.
+        /// Control RequiredFieldValidator36.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator28;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator36;
 
         /// <summary>
         /// Control txtFechaImporte.
@@ -645,13 +600,13 @@ namespace CosaRunt
         protected global::System.Web.UI.WebControls.TextBox txtFechaImporte;
 
         /// <summary>
-        /// Control RequiredFieldValidator29.
+        /// Control RequiredFieldValidator37.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator29;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator37;
 
         /// <summary>
         /// Control DropDownList9.
@@ -789,13 +744,13 @@ namespace CosaRunt
         protected global::System.Web.UI.WebControls.TextBox txtCompTelefono;
 
         /// <summary>
-        /// Control CheckBoxList2.
+        /// Control CheckBoxList1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList CheckBoxList2;
+        protected global::System.Web.UI.WebControls.CheckBoxList CheckBoxList1;
 
         /// <summary>
         /// Control txtObservacion.
@@ -805,5 +760,14 @@ namespace CosaRunt
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtObservacion;
+
+        /// <summary>
+        /// Control Button1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button1;
     }
 }
