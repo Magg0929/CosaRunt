@@ -645,7 +645,6 @@ AGRÍCOLA, Y DE CONSTRUCCIÓN AUTOPROPULSADA</h3>
                 <td class="auto-style1">Seleccionar si el vehiculo aplica:</td>
                 <td class="auto-style5">
                     <asp:CheckBoxList ID="CheckBoxList1" runat="server" Width="346px" >
-                        <asp:ListItem Selected="True">Ninguno</asp:ListItem>
                         <asp:ListItem>Hurto</asp:ListItem>
                         <asp:ListItem>Lim. Propiedad</asp:ListItem>
                         <asp:ListItem>Embargo</asp:ListItem>
